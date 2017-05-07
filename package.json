@@ -1,0 +1,15 @@
+{
+  "name": "node_rss_server",
+  "version": "1.0.0",
+  "description": "A simple server to convert RSS feed into JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayush Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.15.2",
+    "rss-to-json": "1.0.2"
+  }
+}
