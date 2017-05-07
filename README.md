@@ -9,7 +9,7 @@ Usage:
 ##### Request
 
 ```
-Request URL: http://www.example.com?feedURL=https://medium.com/feed/@ayusharma.in
+Request URL: https://morning-earth-19323.herokuapp.com/?feedURL=https://medium.com/feed/@ayusharma.in
 Request Method:GET
 Status Code:200 OK
 Remote Address:192.168.0.104:5000
