@@ -2,10 +2,15 @@ var express = require('express');
 var app = express();
 var Feed = require('rss-to-json');
 
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 app.set('port', (process.env.PORT || 5000));
 
-app.get('/', function(req, res) {
+app.get('/', function(req, res, next) {
   if (req.query.feedURL) {
     Feed.load(req.query.feedURL, function(err, rss){
       if (err) {
