@@ -10,7 +10,7 @@
   "author": "Ayush Sharma",
   "license": "ISC",
   "dependencies": {
-    "express": "4.15.2",
-    "rss-to-json": "1.0.2"
+    "express": "4.17.1",
+    "rss-to-json": "1.0.5"
   }
 }
